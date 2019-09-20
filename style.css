@@ -168,10 +168,11 @@ body {
 }
 
 .connection-article {
-	padding-bottom: 56px;
-	padding-top: 88px;
-	padding-left: 28px;
-	margin-top: 272px;
+	padding-bottom: 17.5%;
+	padding-top: 27.5%;
+	padding-left: 8.8%;
+	padding-right: 8.8%;
+	margin-top: 85%;
 	background-color: #fafafa;
 }
 
@@ -235,18 +236,14 @@ body {
 }
 
 .collaboration-article {
-	padding-bottom: 60px;
-	padding-top: 66px;
+	padding: 20.6% 8.8% 18.8% 8.8%;
 	background-color: #f5f4f9;
-	padding-left: 28px;
 }
 
 .growth-article {
-	padding-bottom: 60px;
-	padding-top: 68px;
+	padding: 21.2% 8.8% 18.8% 8.8%;
 	position: relative;
 	background-color: #5e42b0;
-	padding-left: 28px;
 }
 
 .growth-link-number {
@@ -503,7 +500,7 @@ body {
 
 	.athlete-footballer-image {
 		width: 80%;
-		height: 610px;
+		height: 88%;
 		left: -200px;
 		right: 513px;
 		top: 124px;
@@ -660,17 +657,40 @@ body {
 	}
 
 	.athlete-footballer-image {
-		top: -6.85%;
-		left: 25.44%;
-		right: 61.5%;
+		top: -14.85%;
+		left: 17.3%;
 		bottom: -3.2%;
 		width: 37.3%;
-		height: 910px;
+		height: 120%;
+	}
+
+	.article {
+		padding-right: 10.5%;
+	}
+
+	.connection-article {
+		margin-top: 0;
+		padding-left: 10%;
+		padding-top: 6%;
+		padding-bottom: 4.2%;
+		background-color: #ffffff;
+	}
+
+	.collaboration-article {
+		padding-top: 2.6%;
+		padding-bottom: 3.8%;
+		padding-left: 10%;
+	}
+
+	.growth-article {
+		padding-top: 3.7%;
+		padding-bottom: 3.6%;
+		padding-left: 10%;
 	}
 
 
 	.section-header, .connection-link, .growth-athlet-text, .collaboration-athlet-text, .connection-athlet-text {
-		margin-left: 65.76%;
+		margin-left: 53.2%;
 	}
 
 	.link-title {
@@ -681,16 +701,15 @@ body {
 		font-size: 18px;
 	}
 
-	.header-player, .player-link, .player-text, .collaboration-link, .collaboration-text, .growth-link, .growth-text {
-		margin-left: 13.2%;
+	.header-player {
+		margin-left: 10%;
 	}
 
 	.player-basketballer-image {
 		width: 53%;
 		height: 828px;
 		top: -12.5%;
-		right: 18.6%;
-		left: 52.5%;
+		left: 42.5%;
 	}
 
 	.header-player {
@@ -705,6 +724,16 @@ body {
 		color: #0a0e34;
 	}
 
+	.player-link, .collaboration-link, .growth-link {
+		margin-left: 0;
+	}
+
+	.player-text, .growth-text, .collaboration-text {
+		padding-right: 50.5%;
+		margin-right: 0;
+	}
+
+
 	.new-article {
 		display: flex;
 		font-size: 24px;
@@ -712,16 +741,26 @@ body {
 		line-height: 24px;
 	}
 
-	.be-active-image, .find-contact-image, .work-it-image {
-		width: 960px;
-		height: 740px;
+	.be-active-article, .find-contact-article, .work-it-article {
+		padding-right: 0;
 	}
+
+	.be-active-picture, .find-contact-picture, .work-it-picture {
+		width: 61%;
+		height: 743px;
+	}
+ 
+	.be-active-image, .find-contact-image, .work-it-image {
+		width: 100%;
+		height: 100%;
+	}
+
 
 	.new-article-content {
 		padding-left: 9%;
 		width: 50%;
 		padding-top: 14%;
-		padding-bottom: 16.5%;
+		padding-bottom: 13.5%;
 	}
 
 	.new-article-content:nth-child(odd) {
