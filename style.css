@@ -18,9 +18,9 @@
 
 body {
 	margin:0;
+	min-width: 320px;
 	font-family: "Open Sans", "Fira Sans", sans-serif;
 	font-size: 15px;
-	line-height: 18px;
 	color: #000000;
 }
 
@@ -55,14 +55,16 @@ body {
 }	
 
 .logo {
-	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
 	display: block;
+	fill: #ffffff;
+	width: 49%;
+	height: 14.4%;
 }
 
 .header-logo-svg {
-	width: 135px;
-	height: 40px;
-	fill: #ffffff;
+	width: 100%;
 }
 
 .header-title {
@@ -87,6 +89,8 @@ body {
 	max-width: 93.4%;
 	margin-left: auto;
 	margin-right: auto;
+	margin-top: 0;
+	margin-bottom: 0;
 }
 
 .heading-add {
@@ -189,8 +193,15 @@ body {
 
 .athlete-footballer-image {
 	width: 54%;
+	height: 28%;
 	left: 24%;
 
+}
+
+.player-basketballer-image {
+	width: 95%;
+	left: 2.5%;
+	height: 29%;
 }
 
 .connection-link {
@@ -211,13 +222,12 @@ body {
 .link-number::before{
 	content: "";
 	position: absolute;
-	width: 15px;
+	width: 23px;
 	height: 4px;
 	background-color: #5e42b0;
 	border: 1px solid #5e42b0;
 	border-radius: 2px;
-	top: 18px;
-	bottom: 0;
+	bottom: -5px;
 	right: 0;
 	left: 0;
 
@@ -248,20 +258,18 @@ body {
 
 .growth-link-number {
 	color: #000000;
-	border-bottom: 5px solid #ffffff;
 	position: relative;
 }
 
 .growth-link-number::before {
 	content: "";
 	position: absolute;
-	width: 15px;
+	width: 23px;
 	height: 4px;
 	background-color: #ffffff;
 	border: 1px solid #ffffff;
 	border-radius: 2px;
-	top: 18px;
-	bottom: 0;
+	bottom: -5px;
 	right: 0;
 	left: 0;
 }	
@@ -281,10 +289,8 @@ body {
 }
 	
 .new-link {
-	text-decoration: none;
 	display: flex;
 	flex-direction: column;
-	position: absolute;
 	top: -60px;
 	left: 28px;
 }
@@ -329,6 +335,7 @@ body {
 
 .new-article-content {
 	padding-left: 8.8%;
+	padding-right: 8.8%;
 	margin: 0;
 	padding-top: 13%;
 	position: relative;
@@ -336,6 +343,7 @@ body {
 
 .new-text {
 	margin-top: 35px;
+	margin-bottom: 0;
 }
 
 .work-it-article {
@@ -416,14 +424,12 @@ body {
 	font-size: 32px;
 	font-weight: 700;
 	color: #ffffff;
-	line-height: 0;
 }
 
 .footer-heading-line {
 	font-size: 14px;
 	color: #9b8ec1;
 	text-transform: uppercase;
-	margin-top: 20px;
 }
 
 .app-footer {
@@ -449,30 +455,30 @@ body {
 	margin-left: auto;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 641px) {
 	.container {
 		width: 92.5%;
 	}
 
 	.header-title {
-	  margin-top: 285px;
+	  margin-top: 40%;
 	  font-size: 35px;
 	  line-height: 31px;
 	}
 
 	.heading {
-	padding-left: 58px;
+	padding-left: 8.2%;
 	font-size: 64px;
 	}
 
 	.heading-add {
-		margin-left: 175px;
-		margin-top: 43px;
+		margin-left: 24.6%;
+		margin-top: 6%;
 		line-height: 64px;	
 	}
 
 	.header-footer {
-		margin-top: 320px;
+		margin-top: 45%;
 		flex-direction: row;
 		margin-left: auto;
 		margin-right: auto;
@@ -480,96 +486,111 @@ body {
 	}
 
 	.button {
-		width: 250px;
-		padding-left: 46px;
-		padding-right: 60px;
+		width: 35.2%;
+		padding-left: 6.5%;
+		padding-right: 8.5%;
 	}
 
 	.app-button {
-		margin-right: 20px;
-		padding-top: 18px;
-		padding-bottom: 25px;
+		margin-right: 2.8%;
+		margin-top: 11.1%;
+		padding-top: 2.8%;
+		padding-bottom: 3.5%;
 	}
 
 	.google-button {
-		margin-top: 79px;
-		padding-top: 28px;
-		padding-bottom: 28px;
+		margin-top: 11.1%;
+		padding-top: 4%;
+		padding-bottom: 4%;
 	}
 
+	.athlets-section, .player-section {
+		padding-top: 12.5%;
+	}
+
+	.section-header {
+		margin-bottom: 0;
+		font-size: 80px;
+		margin-left: 40.2%;
+	}
 
 	.athlete-footballer-image {
-		width: 80%;
+		width: 71%;
+		max-width: 670px;
 		height: 88%;
-		left: -200px;
-		right: 513px;
-		top: 124px;
+		left: -25.2%;
+		top: 13.5%;
 	}
 
 	.growth-athlet-text {
 		color: #ffffff;
 	}
 
-	.section-header {
-		margin-top: 95px;
-	}
-
 	.player-basketballer-image {
-		top: 75px;
-		left: 385px;
-		right: 0;
+		top: 7.4%;
+		left: 50.3%;
 		height: 80%;
 		width: 50%;
 	}
 
-	.section-header, .connection-link, .main-text, .growth-athlet-text {
-		margin-left: 315px;
+	.connection-article {
+		margin-top: 0;
+		padding: 9.5% 6.8% 7.7% 40.2%;
+		background-color: #ffffff;
 	}
+
+	.collaboration-article, .growth-article {
+		padding: 6.4% 6.8% 7.9% 40.2%;
+	}
+
 
 	.article {
 		padding-right: 6%;
-	}
-
-	.connection-article {
-		margin-top: 65px;
-	}
+	} 
+	
 
 	.header-player {
-		margin-top: 99px;
-		margin-left: 37px;
+		margin-left: 9.9%;
 	}
 
-	.player-link, .player-text, .collaboration-link, .collaboration-text, .growth-link, .growth-text, .new-text {
-		margin-left: 37px;
+	.connection-player-article, .collaboration-player-article, .player-growth-article {
+		padding-left: 6.3%;
+	}
+
+	.player-link, .player-text, .collaboration-link, .collaboration-text, .growth-link, .growth-text {
+		padding-left: 4.8%;
 	}
 
 	.player-text, .collaboration-text {
-		margin-right: 365px;
+		padding-right: 40.4%;
 	}
 
-	.growth-text {
-		margin-right: 314px;
-	}
 
 	.new-article {
 		padding-right: 0;
 	}
 
-.new-article-content {
-	padding-left: 5.6%;
-}
+   .new-article-content {
+	    padding-left: 5.6%;
+	    padding-top: 12.6%;
+    }
+
+    .new-link {
+    	margin-left: 2.5%;
+    }
 
 	.new-title {
 		margin: 0;
+		font-size: 80px;
 	}
 
-.new-text {
-	margin: 0;
-	margin-top: 46px;
-}
+    .new-text {
+	  margin: 0;
+	  font-size: 24px;
+    }
 
 	.footer-heading {
-		margin-top: 88px;
+		margin-top: 11.5%;
 	}
 
 	.footer-app-download {
@@ -578,25 +599,18 @@ body {
 
 	.footer-heading-line {
 		font-size: 36px;
-		margin-top: 60px;
 	}
 	
-	.footer-wrapper {
-		display: flex;
-		margin-top: 295px;
-		justify-content: space-around;
-	}
-
-	.app-button {
-		margin-top: 79px;
+	.header-footer {
+		margin-top: 38%;
 	}
 
 	.app-footer, .google-footer {
-		width: 320px;
+		width: 42%;
 	}
 
 	.app-footer {
-		margin-right: 40px;
+		margin-right: 5.2%;
 	}
 
 
@@ -604,13 +618,9 @@ body {
 		margin-left: auto;
 		margin-right: auto;
 	}
-
-	.download-wrapper {
-		margin-left: 35px;
-	}
 }
 
-@media (min-width: 1920px) {
+@media (min-width: 961px) {
 	.container {
 		width: 81.3%;
 		padding-top: 3.4%;
@@ -648,20 +658,19 @@ body {
 
 
 	.athlets-section, .player-section {
-		padding-top: 0;
+		padding-top: 6.5%;
 	}
 
 	.section-header {
-		margin-top: 8%;
 		font-size: 80px;
 	}
 
 	.athlete-footballer-image {
-		top: -14.85%;
-		left: 17.3%;
+		top: 2%;
+		left: 15.3%;
 		bottom: -3.2%;
 		width: 37.3%;
-		height: 120%;
+		height: 100%;
 	}
 
 	.article {
@@ -703,17 +712,20 @@ body {
 
 	.header-player {
 		margin-left: 10%;
+		margin-top: 0;
 	}
 
 	.player-basketballer-image {
 		width: 53%;
-		height: 828px;
-		top: -12.5%;
-		left: 42.5%;
+		height: 95%;
+		top: 1.5%;
+		left: 43.5%;
 	}
 
-	.header-player {
-		margin-top: 9%;
+	.player-text, .collaboration-text, .growth-text {
+		padding-left: 0;
+	}
+
 	}
 
 	.player-growth-article {
@@ -721,16 +733,21 @@ body {
 	}
 
 	.player-growth-number {
-		color: #0a0e34;
+		color: #ffffff;
 	}
 
 	.player-link, .collaboration-link, .growth-link {
 		margin-left: 0;
+		padding-left: 0;
 	}
 
 	.player-text, .growth-text, .collaboration-text {
 		padding-right: 50.5%;
 		margin-right: 0;
+	}
+
+	.connection-link {
+		align-items: center;
 	}
 
 
@@ -741,14 +758,21 @@ body {
 		line-height: 24px;
 	}
 
+	.new-text {
+		margin-top: 6.7%;
+		margin-left: 0;
+	}
+
 	.be-active-article, .find-contact-article, .work-it-article {
 		padding-right: 0;
+		width: 100%;
 	}
 
 	.be-active-picture, .find-contact-picture, .work-it-picture {
-		width: 61%;
-		height: 743px;
+		width: 50%;
+		height: 33.3%;
 	}
+
  
 	.be-active-image, .find-contact-image, .work-it-image {
 		width: 100%;
@@ -761,6 +785,8 @@ body {
 		width: 50%;
 		padding-top: 14%;
 		padding-bottom: 13.5%;
+		box-sizing: border-box;
+		height: 33.3%;
 	}
 
 	.new-article-content:nth-child(odd) {
@@ -768,29 +794,29 @@ body {
 	}
 
 	.new-link {
-		top: 226px;
-		left: -85px;
+		top: 30%;
+		left: -9%;
+		margin-left: 0;
 	}
 
 
 	.new-number {
-		width: 170px;
-		height: 170px;
-		padding-top: 65px;
-		padding-bottom: 65px;
+		width: 18.3%;
+		height: 18.3%;
+		padding-top: 6.6%;
+		padding-bottom: 6.6%;
 		font-size: 24px;
 	}
 
 	.new-number::before {
 		width: 24px;
 		height: 5px;
-		left: 73px;
-		bottom: 73px;
-		
+		bottom: 20%;
+		left: calc(50% - 14px);
 	}
 
 	.new-title-link {
-		font-size: 80px;
+		font-size: 40px;
 		line-height: 80px;
 	}
 
@@ -803,7 +829,7 @@ body {
 	}
 
 	.find-contact-link {
-		left: 885px;
+		left: 91%;
 	}
 
 	.footer {
@@ -814,7 +840,7 @@ body {
 		display: flex;
 		margin-left: auto;
 		margin-right: auto;
-		align-items: center;
+		align-items: flex-start;
 		justify-content: center;
 	}
 
@@ -831,6 +857,7 @@ body {
 
 	.footer-heading {
 		margin-left: 3.6%;
+		margin-top: 0;
 	}
 }
 
