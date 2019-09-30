@@ -201,7 +201,7 @@ body {
 .player-basketballer-image {
 	width: 95%;
 	left: 2.5%;
-	height: 29%;
+	height: 21.5%;
 }
 
 .connection-link {
@@ -254,6 +254,10 @@ body {
 	padding: 21.2% 8.8% 18.8% 8.8%;
 	position: relative;
 	background-color: #5e42b0;
+}
+
+.player-text, .collaboration-text, .growth-text {
+	padding-right: 0;
 }
 
 .growth-link-number {
