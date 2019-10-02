@@ -193,7 +193,6 @@ body {
 
 .athlete-footballer-image {
 	width: 54%;
-	height: 28%;
 	left: 24%;
 
 }
@@ -201,7 +200,6 @@ body {
 .player-basketballer-image {
 	width: 95%;
 	left: 2.5%;
-	height: 25.5%;
 }
 
 .connection-link {
@@ -222,7 +220,6 @@ body {
 .link-number::before{
 	content: "";
 	position: absolute;
-	width: 23px;
 	height: 4px;
 	background-color: #5e42b0;
 	border: 1px solid #5e42b0;
@@ -268,7 +265,6 @@ body {
 .growth-link-number::before {
 	content: "";
 	position: absolute;
-	width: 23px;
 	height: 4px;
 	background-color: #ffffff;
 	border: 1px solid #ffffff;
@@ -304,13 +300,14 @@ body {
 	width: 70px;
 	height: 70px;
 	background-color: #5e42b0;
-	padding-top: 28px;
-	padding-bottom: 28px;
 	font-size: 14px;
 	text-align: center;
 	box-sizing: border-box;
 	font-weight: 700;
 	position: absolute;
+	display: flex;
+	justify-content: center;
+
 }
 
 .new-number::before {
@@ -519,11 +516,10 @@ body {
 	}
 
 	.athlete-footballer-image {
-		width: 71%;
+		width: 75%;
 		max-width: 670px;
-		height: 88%;
-		left: -25.2%;
-		top: 13.5%;
+		left: -27.2%;
+		top: 13.8%;
 	}
 
 	.growth-athlet-text {
@@ -532,9 +528,8 @@ body {
 
 	.player-basketballer-image {
 		top: 7.4%;
-		left: 50.3%;
-		height: 80%;
-		width: 50%;
+		left: 36.3%;
+		width: 66%;
 	}
 
 	.connection-article {
@@ -559,6 +554,14 @@ body {
 
 	.connection-player-article, .collaboration-player-article, .player-growth-article {
 		padding-left: 6.3%;
+	}
+
+	.player-growth-article {
+		background-color: #090c35;
+	}
+
+	.growth-link-number {
+		color: #8765dd;
 	}
 
 	.player-link, .player-text, .collaboration-link, .collaboration-text, .growth-link, .growth-text {
@@ -631,6 +634,18 @@ body {
 		padding-bottom: 7%;
 	}
 
+	.header-logo-svg {
+		width: 25%;
+	}
+
+	.logo {
+		text-align: center;
+	}
+
+	.header-title {
+		margin-top: 15%;
+	}
+
 	.heading {
 		padding-left: 1.1%;
 		font-size: 90px;
@@ -650,10 +665,36 @@ body {
 
 	.app-button, .google-button {
 		margin-top: 0;
+		padding-right: 0;
+		padding-left: 0;
+		width: 21%;
+		padding-top: 0;
+		padding-bottom: 0;
 	}
 
 	.app-button {
 		margin-right: 3.9%;
+		padding-top: 24px;
+		padding-bottom: 28px;
+	}
+
+	.app-icon {
+		height: 55px;
+		width: 47px;
+	}
+
+	.google-icon {
+		width: 54px;
+		height: 56px;
+	}
+
+	.google-button {
+		padding-top: 27px;
+		padding-bottom: 22px;
+	}
+
+	.label-download {
+		font-size: 14px;
 	}
 
 	.main-content {
@@ -672,9 +713,8 @@ body {
 	.athlete-footballer-image {
 		top: 2%;
 		left: 15.3%;
-		bottom: -3.2%;
-		width: 37.3%;
-		height: 100%;
+		width: 37.9%;
+		max-width: 741px;
 	}
 
 	.article {
@@ -720,10 +760,9 @@ body {
 	}
 
 	.player-basketballer-image {
-		width: 53%;
-		height: 95%;
+		width: 64%;
 		top: 1.5%;
-		left: 43.5%;
+		left: 33.5%;
 	}
 
 	.player-text, .collaboration-text, .growth-text {
@@ -805,15 +844,13 @@ body {
 	.new-number {
 		width: 18.3%;
 		height: 18.3%;
-		padding-top: 6.6%;
-		padding-bottom: 6.6%;
 		font-size: 24px;
 	}
 
 	.new-number::before {
 		width: 24px;
 		height: 5px;
-		bottom: 20%;
+		bottom: 30%;
 		left: calc(50% - 14px);
 	}
 
@@ -836,6 +873,10 @@ body {
 
 	.footer {
 		padding: 0;
+	}
+
+	.footer-container {
+		padding-top: 12.2%;
 	}
 		
 	.wrapper-download-app{
@@ -860,6 +901,10 @@ body {
 	.footer-heading {
 		margin-left: 3.6%;
 		margin-top: 0;
+	}
+
+	.footer-double-logo {
+		margin-top: 14.2%;
 	}
 }
 
