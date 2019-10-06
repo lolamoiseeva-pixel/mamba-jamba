@@ -490,6 +490,8 @@ body {
 		width: 35.2%;
 		padding-left: 6.5%;
 		padding-right: 8.5%;
+		width: 21%;
+		min-width: 375px;
 	}
 
 	.app-button {
@@ -635,7 +637,7 @@ body {
 	}
 
 	.header-logo-svg {
-		width: 25%;
+		width: 26%;
 	}
 
 	.logo {
@@ -644,12 +646,14 @@ body {
 
 	.header-title {
 		margin-top: 15%;
+		line-height: 90px;
 	}
 
 	.heading {
 		padding-left: 1.1%;
 		font-size: 90px;
 		margin: 0;
+		line-height: 90px;
 	}
 
 	.heading-add {
@@ -667,15 +671,14 @@ body {
 		margin-top: 0;
 		padding-right: 0;
 		padding-left: 0;
-		width: 21%;
 		padding-top: 0;
 		padding-bottom: 0;
 	}
 
 	.app-button {
 		margin-right: 3.9%;
-		padding-top: 24px;
-		padding-bottom: 28px;
+		padding-top: 14px;
+		padding-bottom: 18px;
 	}
 
 	.app-icon {
@@ -689,8 +692,8 @@ body {
 	}
 
 	.google-button {
-		padding-top: 27px;
-		padding-bottom: 22px;
+		padding-top: 17px;
+		padding-bottom: 12px;
 	}
 
 	.label-download {
@@ -886,6 +889,10 @@ body {
 		justify-content: center;
 	}
 
+	.app-footer, .google-footer {
+		width: 20.8%;
+	}
+
 	.logo-footer-svg {
 		width: 115px;
 		height: 97px;
@@ -904,6 +911,10 @@ body {
 
 	.footer-double-logo {
 		margin-top: 14.2%;
+	}
+
+	.logo-footer {
+		width: 13%;
 	}
 }
 
